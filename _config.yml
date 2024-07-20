@@ -7,8 +7,8 @@ url: "https://prakhar28.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-# Theme settings (if using a theme)
-theme: minima
+# Theme settings
+theme: jekyll-theme-midnight
 
 # Social media settings
 social:
@@ -45,7 +45,7 @@ experience:
       - "Optimized user engagement through the integration of Deep links and Push notifications using Firebase, resulting in a 35% increase in user interaction and timely updates for users."
       - "Implemented localization features across 3 countries (Singapore, India, and Hong Kong), resulting in a 25% increase in user engagement."
     link: "https://play.google.com/store/apps/details?id=com.goshopmatic.ShopmaticGo"
-  
+
   - title: "Software Developer"
     company: "WhiteHatJr (Now Byju’s Future School)"
     dates: "Dec 2019 - Mar 2021"
@@ -69,7 +69,7 @@ experience:
       - "Integrated OAuth for login and sign-up with Google and Facebook, resulting in a 40% increase in user registrations and a 25% improvement in login success rates."
       - "Implemented React Native Security Hardening package to fortify the app against common security threats. This resulted in a 60% decrease in potential vulnerabilities, including code injection and data leakage, enhancing resilience to potential attacks."
     link: "https://apps.apple.com/us/app/brightside-mentoring/id1477386592"
-    
+
 projects:
   - title: "The Nomad - A travel companion app for the solo travellers"
     organization: "Seattle University"
