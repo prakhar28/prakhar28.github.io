@@ -1,0 +1,104 @@
+# Site settings
+title: Prakhar Jain's Portfolio
+description: This is the professional portfolio of Prakhar Jain, a Senior Software Developer specializing in mobile and web applications.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://prakhar28.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Theme settings (if using a theme)
+theme: minima
+
+# Social media settings
+social:
+  github: prakhar28
+  linkedin: prakhar28
+
+# Exclude these files from the site
+exclude:
+  - README.md
+
+# Other settings
+paginate: 5
+paginate_path: "/page:num/"
+
+# Custom settings
+author:
+  name: "Prakhar Jain"
+  email: "prakharjn28@gmail.com"
+  location: "Jersey City, NJ"
+  phone: "(206) 581-9972"
+
+experience:
+  - title: "Senior Software Developer"
+    company: "Shopmatic Solutions (Now MatchMove)"
+    dates: "Mar 2021 - Nov 2022"
+    achievements:
+      - "Designed and developed a modular architecture for a Flutter e-commerce app, facilitating easy integration of client-specific features."
+      - "Increased user engagement by 35% through personalized app elements using React Native, leading to higher user retention."
+      - "Reduced app downtime by 40% using CodePush for seamless soft updates, eliminating the need for new app versions in stores."
+      - "Integrated Google and Apple Payments, boosting revenue by 30%, enhancing user convenience, and expanding revenue channels."
+      - "Integrated Facebook and Instagram Graph APIs for effortless product sharing, enabling automatic synchronization between users’ social media pages and the app."
+      - "Centralized storybook for web and mobile apps using TypeScript, ensuring design consistency and efficient development, fostering collaboration and code reuse with shared NPM components."
+      - "Automated the deployment process using Jenkins, for consistent delivery of updates with a 40% improvement in deployment efficiency."
+      - "Optimized user engagement through the integration of Deep links and Push notifications using Firebase, resulting in a 35% increase in user interaction and timely updates for users."
+      - "Implemented localization features across 3 countries (Singapore, India, and Hong Kong), resulting in a 25% increase in user engagement."
+    link: "https://play.google.com/store/apps/details?id=com.goshopmatic.ShopmaticGo"
+  
+  - title: "Software Developer"
+    company: "WhiteHatJr (Now Byju’s Future School)"
+    dates: "Dec 2019 - Mar 2021"
+    achievements:
+      - "Led a team of 3 developers to drive initial development using React Native for Android and IOS, achieving 1M downloads within a month and expanding to 5M in six months by focusing on robust feature integration."
+      - "Enhanced app stability by integrating Firebase Crashlytics, achieving an overall stability improvement from 96% to 99%."
+      - "Leveraged Firebase real-time database to synchronize mobile and web platforms with TypeScript, enabling 10ms updates for monitoring student progress."
+      - "Integrated video calling via Twilio SDK, enriching communication features and enhancing user experience."
+      - "Enhanced app presentation with dynamic animations, including a synchronized game experience with web updates. Boosted animation speed by 40% on Android and IOS using native modules, enhancing user experience."
+      - "Improved engagement by 30% through enhanced communication and offline capabilities using a socket messaging service."
+      - "Implemented A/B testing frameworks, enhancing data-driven decision-making and improving user engagement by 15%."
+      - "Incorporated CleverTap for push notifications and analytics, resulting in a 25% increase in user engagement through insightful analytics."
+    link: "https://play.google.com/store/apps/details?id=com.whitehatjr"
+
+  - title: "Associate Software Developer"
+    company: "Tudip Technology — Brightside Mentoring"
+    dates: "May 2018 - Dec 2019"
+    achievements:
+      - "Integrated Stripe payment gateway into React Native application, resulting in a 30% increase in successful transactions."
+      - "Implemented socket messaging with an offline messaging feature, leading to a 20% reduction in message delivery errors and ensuring seamless communication even in low-connectivity environments."
+      - "Integrated OAuth for login and sign-up with Google and Facebook, resulting in a 40% increase in user registrations and a 25% improvement in login success rates."
+      - "Implemented React Native Security Hardening package to fortify the app against common security threats. This resulted in a 60% decrease in potential vulnerabilities, including code injection and data leakage, enhancing resilience to potential attacks."
+    link: "https://apps.apple.com/us/app/brightside-mentoring/id1477386592"
+    
+projects:
+  - title: "The Nomad - A travel companion app for the solo travellers"
+    organization: "Seattle University"
+    dates: "Jan 2023 - Dec 2023"
+    achievements:
+      - "Created a Flutter app with Node.js as a backend and Firebase database for efficient data management."
+      - "Incorporated a custom chatbot deployed on Google’s Vertex AI platform, facilitating over 100 personalized interactions and responses within the application."
+      - "Implemented geolocation features enabling exploration of 50+ remote city locations, integrated with Google Maps API for detailed navigation instructions."
+      - "Optimized app performance, resulting in a 30% reduction in loading times and a 20% decrease in battery consumption during navigation."
+      - "Utilized Firebase Authentication to ensure secure user access and data privacy, fostering trust and confidence among app users."
+
+skills:
+  - name: "Programming Languages"
+    items: ["Python", "JavaScript", "TypeScript", "Dart", "Kotlin", "Swift", "Java"]
+  - name: "Frameworks"
+    items: ["React Native", "Flutter", "Node.js", "Angular.js", "React.js", "Vue.js", "BootStrap", "Django"]
+  - name: "Libraries"
+    items: ["Express.js", "Mongoose.js", "Socket.io", "Jest.js"]
+  - name: "Database Technologies"
+    items: ["MySQL", "SQLite", "MongoDB", "Firebase Realtime Database", "Amazon RDS"]
+  - name: "Cloud Technologies and Tools"
+    items: ["GCP", "Firebase", "Vertex AI", "AWS (EC2, S3, Sage Maker)", "Jenkins", "Docker", "Kubernetes"]
+  - name: "Testing Frameworks"
+    items: ["Selenium", "JUnit", "Firebase A/B Testing", "Mocha"]
+
+education:
+  - degree: "Master Of Science, Computer Science"
+    institution: "Seattle University"
+    dates: "Jan 2023 - Jun 2024"
+  - degree: "Bachelor Of Engineering, Computer Science"
+    institution: "Acropolis Institute of Technology and Research"
+    dates: "Aug 2014 - Apr 2018"
